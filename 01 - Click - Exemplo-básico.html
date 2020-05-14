@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="font/css/font-awesome.min.css">
+    <title>Jquery - Exemplo básico</title>
+    <link rel="stylesheet" href="lib/css/c07.css" />
+  </head>
+  <body>
+    <section id="perguntas">
+      <div class="titulo">
+        Perguntas e respostas
+      </div>
+      <ul>
+        <li>
+          <span>00.</span> Como funciona o Constructo?
+        </li>
+        <li>
+          <span>01.</span> Fazer uma obra é facil?
+        </li>
+        <li>
+          <span>02.</span> Quanto tempo tenho que esperar para ser atendido?
+        </li>
+        <li>
+          <span>03.</span> A obra tem quanto tempo de duração?
+        </li>
+        <li>
+          <span>04.</span> Posso fazer o orçamento pelo Whatsapp?
+        </li>
+
+        <li>
+          <span>05.</span> Posso fazer o orçamento pelo Whatsapp?
+        </li>
+      </ul>   
+    </section>
+
+    
+
+    <script src="lib/js/jquery-1.11.0.js"></script>
+    <script type="text/javascript">
+
+      $(document).ready(function(){
+
+        $('li').on('mouseout', function(){
+          console.log('click');
+        });
+
+      });
+
+    </script>
+  </body>
+</html>
